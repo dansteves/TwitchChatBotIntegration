@@ -1,0 +1,4 @@
+TwitchPlaysPokemon
+oauth:123a4bcdefghijklmn5678o9pqrst0
+Twitch Plays
+tpp
