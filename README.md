@@ -10,7 +10,7 @@ Instructions: (please go to Readme.MD and click the RAW button on github, it mak
 
 3a) Make a separate twitch account for your bot 
 3b) Get your oauth code from https://twitchapps.com/tmi/ 
-3c) Modify the template arguments.txt file to fit your own username and bot rather than the placeholder example
+3c) Modify the template arguments.txt file to fit your own username and bot rather than the placeholder example. 
 
 
       Modify the arguments.txt file to a 4 lined .txt file containing:
@@ -19,7 +19,7 @@ Instructions: (please go to Readme.MD and click the RAW button on github, it mak
       3) The current game you are playing
       4) Your Twitch bot's username
       
-      Sample arguments.txt file:
+      Sample arguments.txt file (PLEASE MAKE SURE YOU UPDATE AND SAVE THIS FILE OR YOU WILL NOT CONNECT TO THE CORRECT CHANNEL):
       
       TwitchPlaysPokemon
       oauth:123a4bcdefghijklmn5678o9pqrst0
@@ -35,7 +35,7 @@ javac -cp ".;pircbot.jar" Config.java Bot.java
 Linux:
 javac -cp ".:pircbot.jar" Config.java Bot.java
 
-3c) run Config.java
+4c) run Config.java
 
 Windows:
 java -cp .;pircbot.jar Config
@@ -55,4 +55,4 @@ Bot is now connected to the channel.
 of course except with a different datetime, and your own username and bot rather than the sample's.
 
 
-5) Once you made sure that's up and running you are good to go! You can edit the java files to do whatever you want to do with them (Bot.java specifically deals with all the commands) with your favorite text editor, but if you change anything then repeat steps 3b) and 3c) for the changes to take effect.
+5) Once you made sure that's up and running you are good to go! You can edit the java files to do whatever you want to do with them (Bot.java specifically deals with all the commands) with your favorite text editor, but if you change anything then repeat steps 4b) and 4c) for the changes to take effect.
