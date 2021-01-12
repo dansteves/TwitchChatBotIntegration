@@ -8,8 +8,8 @@ Instructions: (please go to Readme.MD and click the RAW button on github, it mak
 
 2) Download the files from my repository, by hitting the green button that says code on it, and unzip them.
 
-3a) Make a separate twitch account for your bot 
-3b) Get your oauth code from https://twitchapps.com/tmi/ 
+3a) Make a separate twitch account for your bot\
+3b) Get your oauth code from https://twitchapps.com/tmi/ \
 3c) Modify the template arguments.txt file to fit your own username and bot rather than the placeholder example: 
 
 
@@ -19,15 +19,16 @@ Instructions: (please go to Readme.MD and click the RAW button on github, it mak
        3) The current game you are playing
        4) Your Twitch bot's username
 
-       Sample arguments.txt file (PLEASE MAKE SURE YOU UPDATE AND SAVE THIS FILE OR YOU WILL NOT CONNECT TO THE CORRECT CHANNEL):
+       Sample arguments.txt file: 
+       (PLEASE MAKE SURE YOU UPDATE AND SAVE THIS FILE OR YOU WILL NOT CONNECT TO THE CORRECT CHANNEL)
 
        TwitchPlaysPokemon
        oauth:123a4bcdefghijklmn5678o9pqrst0
        Twitch Plays
        tpp
 
-4a) Open up cmd on Windows or the terminal on Linux and change the current directory to the folder that you unzipped
-4b) compile Config.java and Bot.java
+4a) Open up cmd on Windows or the terminal on Linux and change the current directory to the folder that you unzipped \
+4b) compile Config.java and Bot.java \
 
 Windows:
 javac -cp ".;pircbot.jar" Config.java Bot.java
@@ -35,7 +36,7 @@ javac -cp ".;pircbot.jar" Config.java Bot.java
 Linux:
 javac -cp ".:pircbot.jar" Config.java Bot.java
 
-4c) run Config.java
+4c) run Config.java \
 
 Windows:
 java -cp .;pircbot.jar Config
