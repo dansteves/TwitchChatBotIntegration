@@ -2,8 +2,7 @@
 Allows users to read and write text from/to IRC Twitch chat as a substitute for user input for some of my previous existing projects. Config.java contains the main method of the program and you must run three arguments: your twitch username, your oauth key, and the name of the game you are playing. Bot.java is where all of my existing commands are. Currently Bot.java at the moment is set up to add users to a text file that is loaded and saved each time the command is run if they are interested in entering a tournament I would like to host using the command !interest, and has the ability to display that current list in the chatroom using !list. It can also tell the user what the current game is, currently it is !test but I may change this later. There are eight other commands that are used that allow the user to send user input to my computer so that I can allow them to interact and play a game (currently Pokemon Gold) using commands: !up, !down, !left, !right, !a, !b, !start, !select.
 
 
-Instructions: (please go to Readme.MD and click the RAW button on github, it makes the example look better since Github kinda auto-formats things poorly sometimes)
-
+Instructions: 
 1) Make sure you have an updated JDK, to do that, make sure you visit https://www.oracle.com/java/technologies/javase-downloads.html and download the latest JDK.
 
 2) Download the files from my repository, by hitting the green button that says code on it, and unzip them.
@@ -28,21 +27,21 @@ Instructions: (please go to Readme.MD and click the RAW button on github, it mak
        tpp
 
 4a) Open up cmd on Windows or the terminal on Linux and change the current directory to the folder that you unzipped \
-4b) compile Config.java and Bot.java
+4b) compile Config.java and Bot.java:
 
-Windows:
-javac -cp ".;pircbot.jar" Config.java Bot.java
+       Windows:
+       javac -cp ".;pircbot.jar" Config.java Bot.java
+       
+       Linux:
+       javac -cp ".:pircbot.jar" Config.java Bot.java
 
-Linux:
-javac -cp ".:pircbot.jar" Config.java Bot.java
+4c) run Config.java:
 
-4c) run Config.java
-
-Windows:
-java -cp .;pircbot.jar Config
-
-Linux:
-java -cp .:pircbot.jar Config
+       Windows:
+       java -cp .;pircbot.jar Config
+       
+       Linux:
+       java -cp .:pircbot.jar Config
 
 If done successfully you should be greeted with something like this:
 
