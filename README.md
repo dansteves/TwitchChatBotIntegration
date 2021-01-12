@@ -28,7 +28,7 @@ Instructions: (please go to Readme.MD and click the RAW button on github, it mak
        tpp
 
 4a) Open up cmd on Windows or the terminal on Linux and change the current directory to the folder that you unzipped \
-4b) compile Config.java and Bot.java \
+4b) compile Config.java and Bot.java
 
 Windows:
 javac -cp ".;pircbot.jar" Config.java Bot.java
@@ -36,7 +36,7 @@ javac -cp ".;pircbot.jar" Config.java Bot.java
 Linux:
 javac -cp ".:pircbot.jar" Config.java Bot.java
 
-4c) run Config.java \
+4c) run Config.java
 
 Windows:
 java -cp .;pircbot.jar Config
