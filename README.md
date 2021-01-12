@@ -8,10 +8,10 @@ Instructions: (please go to Readme.MD and click the RAW button on github, it mak
 
 2) Download the files from my repository, by hitting the green button that says code on it, and unzip them.
 
-3) Preparing the bot account
-3a) Make a separate twitch account for your bot 
-3b) Get your oauth code from https://twitchapps.com/tmi/ 
-3c) Modify the template arguments.txt file to fit your own username and bot rather than the placeholder example: 
+3) To prepare the bot account you must 
+ -Make a separate twitch account for your bot 
+ -Get your oauth code from https://twitchapps.com/tmi/ 
+ -Modify the template arguments.txt file to fit your own username and bot rather than the placeholder example: 
 
 
       Modify the arguments.txt file to a 4 lined .txt file containing:
