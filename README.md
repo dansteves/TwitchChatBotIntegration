@@ -8,9 +8,10 @@ Instructions: (please go to Readme.MD and click the RAW button on github, it mak
 
 2) Download the files from my repository, by hitting the green button that says code on it, and unzip them.
 
-3a) Make a separate twitch account for your bot 
-3b) Get your oauth code from https://twitchapps.com/tmi/ 
-3c) Modify the template arguments.txt file to fit your own username and bot rather than the placeholder example. 
+3) Preparing the bot account
+a) Make a separate twitch account for your bot 
+b) Get your oauth code from https://twitchapps.com/tmi/ 
+c) Modify the template arguments.txt file to fit your own username and bot rather than the placeholder example. 
 
 
       Modify the arguments.txt file to a 4 lined .txt file containing:
@@ -26,8 +27,9 @@ Instructions: (please go to Readme.MD and click the RAW button on github, it mak
       Twitch Plays
       tpp
 
-4a) Open up cmd on Windows or the terminal on Linux and change the current directory to the folder that you unzipped
-4b) compile Config.java and Bot.java
+4) Running the bot
+a) Open up cmd on Windows or the terminal on Linux and change the current directory to the folder that you unzipped
+b) compile Config.java and Bot.java
 
 Windows:
 javac -cp ".;pircbot.jar" Config.java Bot.java
@@ -45,14 +47,16 @@ java -cp .:pircbot.jar Config
 
 If done successfully you should be greeted with something like this:
 
-Bot is now connected to the channel.
-12/30/2020 03:51:08: *** Connected to server.
-12/30/2020 03:51:08: *** Logged onto server.
-12/30/2020 03:51:08: tpp: JOIN
-12/30/2020 03:51:08: :tmi.twitch.tv USERSTATE #twitchplayspokemon
-12/30/2020 03:51:08: :tmi.twitch.tv ROOMSTATE #twitchplayspokemon
+      Bot is now connected to the channel.
+      12/30/2020 03:51:08: *** Connected to server.
+      12/30/2020 03:51:08: *** Logged onto server.
+      12/30/2020 03:51:08: tpp: JOIN
+      12/30/2020 03:51:08: :tmi.twitch.tv USERSTATE #twitchplayspokemon
+      12/30/2020 03:51:08: :tmi.twitch.tv ROOMSTATE #twitchplayspokemon
 
 of course except with a different datetime, and your own username and bot rather than the sample's.
 
 
-5) Once you made sure that's up and running you are good to go! You can edit the java files to do whatever you want to do with them (Bot.java specifically deals with all the commands) with your favorite text editor, but if you change anything then repeat steps 4b) and 4c) for the changes to take effect.
+5) Once you made sure that's up and running you are good to go! You can edit the java files to do whatever you want to do with them (Bot.java specifically deals with all the commands) with your favorite text editor, but if you change anything then repeat steps 4b) and 4c) for the changes to take effect. Don't forget to give your bot moderator privileges in your channel "/mod <botname>" for full effect.
+
+6) I use this bot in tandem with StreamElement's for all of the verified bot's privileges that you can't get with this unverified bot, so optionally you can go and get StreamElement's bot as well. https://streamelements.com/ . Their bot gives you less freedom with what you can do like you cannot customize StreamElements to affect your keyboard like you can with this bot for example, but can still do special things integrated into Twitch's database itself such as look up someone's followage to your channel or how long they have had a channel for, for example. That's why it's nice to have this custom bot and a well established bot together.
