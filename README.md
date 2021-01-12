@@ -4,11 +4,13 @@ Allows users to read and write text from/to IRC Twitch chat as a substitute for 
 
 Instructions: (please go to Readme.MD and click the RAW button on github, it makes the example look better since Github kinda auto-formats things poorly sometimes)
 
-1) Download the files and unzip them.
+1) Make sure you have an updated JDK, to do that, make sure you visit https://www.oracle.com/java/technologies/javase-downloads.html and download the latest JDK.
 
-2a) Make a separate twitch account for your bot 
-2b) Get your oauth code from https://twitchapps.com/tmi/ 
-2c) Modify the template arguments.txt file to fit your own username and bot rather than the placeholder example
+2) Download the files from my repository, by hitting the green button that says code on it, and unzip them.
+
+3a) Make a separate twitch account for your bot 
+3b) Get your oauth code from https://twitchapps.com/tmi/ 
+3c) Modify the template arguments.txt file to fit your own username and bot rather than the placeholder example
 
 
       Modify the arguments.txt file to a 4 lined .txt file containing:
@@ -24,8 +26,8 @@ Instructions: (please go to Readme.MD and click the RAW button on github, it mak
       Twitch Plays
       tpp
 
-3a) Open up cmd on Windows or the terminal on Linux and change the current directory to the folder that you unzipped
-3b) compile Config.java and Bot.java
+4a) Open up cmd on Windows or the terminal on Linux and change the current directory to the folder that you unzipped
+4b) compile Config.java and Bot.java
 
 Windows:
 javac -cp ".;pircbot.jar" Config.java Bot.java
@@ -53,4 +55,4 @@ Bot is now connected to the channel.
 of course except with a different datetime, and your own username and bot rather than the sample's.
 
 
-4) Once you made sure that's up and running you are good to go! You can edit the java files to do whatever you want to do with them (Bot.java specifically deals with all the commands) with your favorite text editor, but if you change anything then repeat steps 3b) and 3c) for the changes to take effect.
+5) Once you made sure that's up and running you are good to go! You can edit the java files to do whatever you want to do with them (Bot.java specifically deals with all the commands) with your favorite text editor, but if you change anything then repeat steps 3b) and 3c) for the changes to take effect.
