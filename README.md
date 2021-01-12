@@ -9,9 +9,9 @@ Instructions: (please go to Readme.MD and click the RAW button on github, it mak
 2) Download the files from my repository, by hitting the green button that says code on it, and unzip them.
 
 3) Preparing the bot account
-a) Make a separate twitch account for your bot 
-b) Get your oauth code from https://twitchapps.com/tmi/ 
-c) Modify the template arguments.txt file to fit your own username and bot rather than the placeholder example. 
+3a) Make a separate twitch account for your bot 
+3b) Get your oauth code from https://twitchapps.com/tmi/ 
+3c) Modify the template arguments.txt file to fit your own username and bot rather than the placeholder example: 
 
 
       Modify the arguments.txt file to a 4 lined .txt file containing:
@@ -28,8 +28,8 @@ c) Modify the template arguments.txt file to fit your own username and bot rathe
       tpp
 
 4) Running the bot
-a) Open up cmd on Windows or the terminal on Linux and change the current directory to the folder that you unzipped
-b) compile Config.java and Bot.java
+4a) Open up cmd on Windows or the terminal on Linux and change the current directory to the folder that you unzipped
+4b) compile Config.java and Bot.java
 
 Windows:
 javac -cp ".;pircbot.jar" Config.java Bot.java
