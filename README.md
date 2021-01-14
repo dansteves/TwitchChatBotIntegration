@@ -43,6 +43,8 @@ Instructions:
        Linux:
        java -cp .:pircbot.jar Config
 
+(For Windows users you can alternatively compile and run simply by double clicking on the TwitchBot.cmd file in the folder.)
+
 If done successfully you should be greeted with something like this:
 
       Bot is now connected to the channel.
