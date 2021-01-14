@@ -43,7 +43,7 @@ Instructions:
        Linux:
        java -cp .:pircbot.jar Config
 
-(For Windows users you can alternatively compile and run simply by double clicking on the TwitchBot.cmd file in the folder.)
+(For Windows users you can alternatively compile and run which is just steps 4b and 4c at the same time simply by double clicking on the TwitchBot.cmd file in the folder. If the .cmd file closes instantly, then you need to double check that you have an up enough to date JDK as mentioned in step 1, if instead it doesn't close but is stuck in an endless disconnect loop then you should manually close the file and double check if your arguments.txt file is changed to your specifications and NOT the sample's all of which is done in step 3c.)
 
 If done successfully you should be greeted with something like this:
 
